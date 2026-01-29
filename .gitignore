@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Node / Vite
+frontend/node_modules
+frontend/dist
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Python
+backend/.venv
+backend/__pycache__
+backend/.cache
+*.pyc
+
+# Secrets
+backend/.env
+
+# Local DB + generated outputs
+backend/data/*.db
+backend/data/out/*
+!backend/data/out/.gitkeep
+
+# Logs
+*.log
